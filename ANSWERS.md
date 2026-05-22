@@ -22,8 +22,8 @@ I chose **Vanilla Node.js (JavaScript)**.
 ### 4. AI usage:
 
 - **Tool:** Gemini
-- **What I asked:** "Help me structure a CLI that consumes the GitHub API and handles timeouts using modern Node features."
-- **What it gave me:** It provided a boilerplate using TypeScript, `ts-node`, and complex compiler configurations.
+- **What I asked:** "Help me structure a CLI that consumes the GitHub API and handles timeouts using modern Node features. And also asked to make the files for me which required manual typing like README.md file."
+- **What it gave me:** It provided a boilerplate using TypeScript, `ts-node`, and complex compiler configurations. It also gave me the README.md file which i reviewed and then pushed on Github.
 - **What I changed & Why:** I completely stripped out the TypeScript implementation. While TS is great for large codebases, the tooling overhead was getting in the way of the core logic for this assessment. I refactored the AI's output into pure, vanilla JavaScript to achieve a true zero-dependency architecture.
 
 ### 5. Honest gap:
